@@ -308,3 +308,47 @@ var index = 1;
             }
             return relevantChildren1;
         }
+var model = document.getElementById("myModel");
+var btn = document.getElementById("register");
+var clo = document.getElementById("close");
+
+btn.onclick = function (){
+    model.style.display = "block"
+}
+clo.onclick = function (){
+    model.style.display = "none";
+}
+window.onclick = function(event){
+    if(event.target == model){
+        model.style.display = "none";
+    }
+}
+var reg_email = /\w+@+\w+(\.\w){1,2}/;
+var reg_phone = /0[0-9]{9,10}/;
+var reg_pass = /\w{6}/;
+var a11 = document.getElementById("mail");
+var b11 = document.getElementById("phone");
+var c11 = document.getElementById("pass");
+document.getElementsByClassName("create")[0].onclick = function(){
+    if(a11.value == ""){
+    document.getElementById("x1").innerHTML = "This is a required field.";
+}
+if(reg_email.test(a11.value) == false && a11.value != ""){
+    document.getElementById("x1").innerHTML = "Please enter a valid email address.";
+}
+if(b11.value == ""){
+    document.getElementById("x2").innerHTML = "This is a required field.";
+}
+if(reg_phone.test(b11.value) == false && b11.value != ""){
+    document.getElementById("x2").innerHTML = "Please enter a valid phone.";
+}
+if(c11.value == ""){
+    document.getElementById("x3").innerHTML = "This is a required field.";
+}
+if(reg_pass.test(c11.value) == false && c11.value != ""){
+    document.getElementById("x3").innerHTML = "Please enter 6 or more characters without leading or trailing spaces.";
+}
+
+
+
+}

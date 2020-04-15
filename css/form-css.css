@@ -1,0 +1,30 @@
+.form{
+  
+    height: 700px;
+}
+.form .fo1{
+    height: 100%;
+    width: 50%;
+    
+    float: left;
+    padding-top: 50px;
+}
+.form .fo2{
+    position: relative;
+    height: 100%;
+    width: 49%;
+    
+    float: left;
+}
+.fh{
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+input{
+   
+    outline: none;
+    padding: 10px;
+    width: auto;
+}
