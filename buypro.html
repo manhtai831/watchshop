@@ -51,7 +51,7 @@
             <div class="account">
 
                 <div>
-                    <a href="#" class="y">My Account</a>
+                    <a href="form.html" class="y">My Account</a>
                     <ul class="sub-menu1">
                         <li><a href="#">Login</a></li>
                         <li><a href="#">Wishlist</a></li>
@@ -63,7 +63,7 @@
 
             </div>
             <div class="market">
-                <a href="buypro.html"><img src="images/bag-head.png"></a>
+                <a href="#"><img src="images/bag-head.png"></a>
             </div>
 
         </div>
@@ -494,92 +494,101 @@
             </div>
 
         </div>
-        
-        <div class="form">
-            <div class="fo1">
-                <div style="text-align: center;font-size: 35px; font-weight: 500;">Log In</div>
-                <div style="border-bottom: 2px solid blue;margin:10px 70px;padding-bottom: 5px;font-weight: 500;">Registered Customers</div>
-                <div style="margin:10px 70px;">If you have an account with us, log in using your email address.</div>
-               <div class="fh">
-                   <form>
-                      
-                        <div >
-                           
-                            <div  style="font-weight: 500;margin-bottom: 10px;">Email: </div>
-                            <div class="inp"><input type="email" required  size="85" placeholder="Email" id="mail1"></div>
-                            <div id="m1" style="color: red;"></div>
-                            <DIV style="font-weight: 500;margin-bottom: 10px;" > Phone: </DIV>
-                            <div class="inp"><input type="tel" required  size="85" placeholder="Phone Number" id="phone1"></div>
-                            <div id="m2" style="color: red;"></div>
-                            <div style="font-weight: 500;margin-bottom: 10px;">Password: </div>
-                            <div class="inp"> <input type="password" required  size="85" placeholder="Password" id="pass1"></div>
-                            <div id="m3" style="color: red;" ></div>
-                           
-                            <div><button class="create">LOG IN</button></div>
-                           
-                        </div>
-    
-                    </form>
-               </div>
-                    
-               
-            </div>
-            <div class="fo2">
-                <div style="text-align: center;font-size: 35px; font-weight: 500;margin-top:50px;">Register</div>
-                <div style="border-bottom: 2px solid blue;margin:10px 70px 20px 70px;padding-bottom: 5px;font-weight: 500;">New Customers</div>
-                <div style="margin:10px 70px;">By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, 
-                    view and track your orders in your account and more.</div>
-                    
-            
-                    <div class="fh" style="margin-top: 5px;">
-                        <form>
-                           
-                             <div >
-                                
-                                 <div  style="font-weight: 500;margin-bottom: 10px;">Email: </div>
-                                 <div class="inp"><input type="email" required  size="85" placeholder="Email" id="mail21"></div>
-                                 <div id="m11" style="color: red;"></div>
-                                 <DIV style="font-weight: 500;margin-bottom: 10px;" > Phone: </DIV>
-                                 <div class="inp"><input type="tel" required  size="85" placeholder="Phone Number" id="phone2"></div>
-                                 <div id="m21" style="color: red;"></div>
-                                 <div style="font-weight: 500;margin-bottom: 10px;">Password: </div>
-                                 <div class="inp"> <input type="password" required  size="85" placeholder="Password" id="pass2"></div>
-                                 <div id="m31" style="color: red;" ></div>
-                                <div style="font-weight: 500;margin-bottom: 10px;"> Giới tính:</div>
-                                <div><label for="nam" style="margin-right: 20px;"><input type="radio" name="gender" id="nam" class="gt1">Nam</label><label for="nu"><input type="radio" name="gender" id="nu" class="gt1">Nữ</label></div>
-                                <div id="m41" style="color: red;" ></div>
-                                <div style="font-weight: 500;margin-bottom: 10px;">Sở thích:</div>
-                                <div><label for="read" style="margin-right: 20px;"><input type="checkbox" id="read" class="cb1">Read book</label>
-                                    <label for="travel" style="margin-right: 20px;"><input type="checkbox" id="travel"  class="cb1">Travel</label>
-                                    <label for="music" style="margin-right: 20px;"><input type="checkbox" id="music"  class="cb1">Music</label>
-                                    <label for="food" style="margin-right: 20px;"><input type="checkbox" id="food"  class="cb1">Food</label>
-                                    <label for="other"><input type="checkbox" id="other"  class="cb1">Other</label></div>
-                                    <div id="m51" style="color: red;" ></div>
-                                    <div>Quốc tịch</div>
-                                    <div>
-                                        <select id="select" style="width: 500px;height: 40px;">
-                                            <option value="0">Chọn quốc tịch</option>
-                                            <option value="1">Việt Nam</option>
-                                            <option value="2">Hàn Quốc</option>
-                                            <option value="3">Nhật Bản</option>
-                                            <option value="4">Hoa kì</option>
-                                        </select>
-                                    </div>
-                                    <div id="m61" style="color: red;" ></div>
-                                    <div >Ghi chú</div>
-                                    <div>
-                                        <textarea cols="20" rows="10" style="width: 500px;height: 100px;" id="ghiChu"></textarea>
-                                    </div>
-                                    <div id="m71" style="color: red;" ></div>
-                                 <button id="register11" style="position: absolute;width: 100px;height: 40px;background-color: rgb(74, 74, 182);left: 45%;cursor: pointer;outline: none;color: white;font-size: 500;border: none;">REGISTER</button>
-                                
-                             </div>
-         
-                         </form>
-                    </div>
-            </div>
+        <div>
+            <div style="margin: auto;width: 730px;text-align: center;">
 
+                <h1>BÁN HÀNG</h1>
+                <select id="muc-gia">
+                    <option value="0">Mức giá</option>
+                    <option value="1">Dưới 200</option>
+                    <option value="2">Từ 200 đến 500</option>
+                    <option value="3">Trên 500</option>
+              
+                </select>
+                <hr>
+                <table id="san-pham" border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <th colspan="2">SẢN PHẨM</th>
+                        <th class="donGia">ĐƠN GIÁ</th>
+                        <th style="width: 100px;">SỐ LƯỢNG</th>
+                        <th>THÀNH TIỀN</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;">Luxury Powermatic 80 </td>
+                        <td class="donGia">700</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;">Khaki King II  </td>
+                        <td class="donGia">300</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;"> Powermatic 80 Silver </td>
+                        <td class="donGia">1000</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;"> Luxury Automatic Anthracite </td>
+                        <td class="donGia">400</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"> </td>
+                        <td style="width: 350px;">Two Automatic Men's Watch</td>
+                        <td class="donGia">200</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;">Gradient Green Butterfly Ladies Sunglasses</td>
+                        <td class="donGia">90</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;">Femini-T Diamond Blue Dial Ladies Watch</td>
+                        <td class="donGia">450</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;">HARRY WINSTON</td>
+                        <td class="donGia">640</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;"><input type="checkbox" class="cb"></td>
+                        <td style="width: 350px;">MONTBLANC</td>
+                        <td class="donGia">190</td>
+                        <td><input type="text" placeholder="Nhập số lượng" disabled style="border: none;" class="soLuong" value="0"></td>
+                        <td class="thanhtien"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">TỔNG</th>
+                        <th id="tong"></th>
+                        
+                    </tr>
+                    
+                </table>
+                <button id="tt" style="height: 40px;background-color: rgb(86, 86, 179);color: white;
+                outline: none;margin-top: 10px;padding: 0 10px;">THANH TOÁN</button>
+            </div>
+            
         </div>
+        
         <div id="signup">
             <div class="sign1">Sign Up For Exclusive Email Offers & More:</div>
             <form enctype="multipart/form-data" method="POST">
@@ -595,7 +604,7 @@
             </div>
 
         </div>
-
+        
         <div id="footer">
             <div class="note">
                 <div class="n1">CONTACT US</div>
@@ -994,6 +1003,7 @@
     </script> -->
     <script type="text/javascript" src="js/index-js.js"></script>
     <script type="text/javascript" src="js/form-js.js"></script>
+    <script type="text/javascript" src="js/buypro-js.js"></script>
 </body>
 
 </html>

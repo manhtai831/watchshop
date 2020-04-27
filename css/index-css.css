@@ -1,3 +1,22 @@
+/* Chrome, Opera, Safari */
+::-webkit-input-placeholder {
+    font-style: italic;
+  }
+  
+  /* Firefox 19+ */
+  ::-moz-placeholder {
+    font-style: italic;
+  }
+  
+  /* IE 10+ */
+  :-ms-input-placeholder {
+    font-style: italic;
+  }
+  
+  /* Firefox 18- */
+  :-moz-placeholder {
+    font-style: italic;
+  }
 *{
     margin:0;
     padding: 0;
